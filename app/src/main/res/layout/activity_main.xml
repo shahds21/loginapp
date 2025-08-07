@@ -4,29 +4,33 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="24dp">
-
+    android:padding="24dp"
+    android:background="#FCE4EC"> <!-- خلفية وردية -->
 
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
-        android:inputType="textPersonName" />
+        android:inputType="text"
+        android:backgroundTint="#7B1FA2"/>
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginTop="16dp" />
+        android:backgroundTint="#1E88E5" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Login"
-        android:layout_marginTop="24dp" />
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#EC407A" /> <!-- وردي غامق -->
 
 </LinearLayout>
